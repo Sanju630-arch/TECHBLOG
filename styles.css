@@ -1,0 +1,198 @@
+
+button{
+  font-family: 'montserrat',sans-serif;
+  color: white;
+  padding: 10px 30px;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(203, 107, 107);
+  border-radius: 17px;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: rgb(184, 178, 178);
+}
+nav{
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'montserrat', sans-serif;
+  padding-top: 15px;
+}
+li{
+ display: inline;
+ list-style: none;
+
+}
+li a{
+  color: white;
+  font-weight: bolder;
+  text-decoration: none;
+  margin-left: 40px;
+}
+li a:hover {
+  border-bottom: 2px solid rgb(202, 65, 65);
+
+}
+header{
+  background: url(pexels-daniel-putzer-633409.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  font-weight: normal;
+  color: white;
+  font-family: 'montserrat', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.heed{
+  position: absolute;
+  top: 6rem;
+  font-size: 3rem;
+  word-spacing: 4px;
+  margin-bottom: -40px;
+}
+.heeed{
+  position: absolute;
+  top: 10rem;
+  font-size: 3rem;
+  word-spacing: 4px;
+  margin-bottom: -40px;
+}
+.btn{
+  position: absolute;
+  top: 15rem;
+}
+.demo-container{
+ 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.content p, h1{
+  color: white;
+  margin-top: 20px;
+
+}
+.title-two{
+
+  font-size: 3rem;
+}
+
+.content{
+  font-family: 'Montserrat',sans-serif;   
+  max-width: 600px;
+  margin-top: 20px;
+}
+.products{
+
+  margin-bottom: 100px;
+}
+.title-three{
+  text-align: center;
+  font-size: 3rem;
+ margin-top: 30px;
+ margin-bottom: 30px;
+  
+}
+.cards{
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.card {
+  box-sizing: border-box;
+  width: 300px;
+  height: 400px;
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 12.5px );
+  -webkit-backdrop-filter: blur( 12.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+  backdrop-filter: blur(6px);
+  border-radius: 17px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  font-weight: bolder;
+  color: black;
+}
+
+.card:hover {
+  border: 1px solid rgb(172, 166, 166);
+  transform: scale(1.05);
+}
+.items-one{
+font-family: "montserrat", sans-serif;
+margin-top: 270px;
+}
+.items-one p{
+  color: white;
+  text-shadow: 2px 3px 9px black;
+  font-size: small;
+}
+.items-two p{
+  font-size: small;
+}
+.items-three p{
+  font-size: small;
+}
+.items-two{
+  font-family: "montserrat", sans-serif;
+margin-top: 270px;
+}
+.items-three{
+  font-family: "montserrat", sans-serif;
+margin-top: 270px;
+}
+.card-image-one{
+  filter: drop-shadow(4px 4px 6px black);
+  background: url(sam.png);
+  background-position: center;
+  background-size: cover;
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  position: absolute;
+  top: 10px;
+}
+
+.card-image-two{
+  background: url(iPhone-14-Pro-Max-Mockup-removebg-preview.png);
+  background-position: center;
+  background-size: cover;
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  position: absolute;
+  top: 10px;
+}
+.card-image-three{
+  background: url(unnamed.png);
+  background-position: center;
+  background-size: cover;
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  position: absolute;
+  top: 10px;
+}
